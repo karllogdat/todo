@@ -1,0 +1,30 @@
+html {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+#container-main {
+    overflow-x: hidden;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#container-main:before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: url("../img/andrew-ly-KZ0SZ2fEd20-unsplash.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.5;
+}
