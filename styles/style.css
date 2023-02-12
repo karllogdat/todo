@@ -1,7 +1,23 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+:root {
+    --gray: #2B303A;
+    --darkgray: #232830;
+    --white: #EEE5E9;
+    --lightblue: #92DCE5;
+    --lightred: #D64933;
+}
+
 html {
     margin: 0;
+
     background-color: black;
     color: white;
+
+    font-size: 16px;
 }
 
 body {
@@ -9,13 +25,21 @@ body {
 }
 
 #container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     overflow-x: hidden;
 
     width: 100vw;
     height: 100vh;
+
+    background: url("../img/andrew-ly-KZ0SZ2fEd20-unsplash.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
-#container-main:before {
+/* #container-main:before {
     content: "";
 
     position: absolute;
@@ -27,4 +51,4 @@ body {
     background: url("../img/andrew-ly-KZ0SZ2fEd20-unsplash.jpg") no-repeat center center fixed;
     background-size: cover;
     opacity: 0.5;
-}
+*/
